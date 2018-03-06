@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
 //        print(NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).last! as String)
 
-        GMSServices.provideAPIKey("AIzaSyBgWbIxjQDrfX-ZisanZC9I975ggNpfd98")
+        GMSServices.provideAPIKey("your google map api")
         registerForPushNotifications()
         do {
             _ = try Realm()
